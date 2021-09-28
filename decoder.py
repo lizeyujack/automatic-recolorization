@@ -27,7 +27,7 @@ class Decoder(object):
         # self.input_path = input_path
         self.output_path = output_path
         # lower CPU priority (to not freeze PC)
-        os.nice(19)
+        # os.nice(19)
         try:
             os.makedirs(self.output_path, exist_ok=True)
         except FileExistsError:

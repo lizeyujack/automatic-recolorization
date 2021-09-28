@@ -32,7 +32,7 @@ class Recolor(object):
         self.ir_folder = None
 
         # lower CPU priority (to not freeze PC)
-        os.nice(19)
+        # os.nice(19)
 
 
     def main(self):

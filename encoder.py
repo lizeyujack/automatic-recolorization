@@ -6,7 +6,7 @@ Encodes an RGB image into grayscale + color cues.
 
 import os, sys
 import argparse
-from typing_extensions import ParamSpecArgs
+# from typing_extensions import ParamSpecArgs
 import cv2
 import numpy as np
 import math
@@ -36,7 +36,7 @@ class Encoder(object):
         self.quantize_k = quantize
 
         # lower CPU priority (to not freeze PC), unix only
-        os.nice(19)
+        # os.nice(19)
         
         try:
             os.makedirs(self.output_path, exist_ok=True)
