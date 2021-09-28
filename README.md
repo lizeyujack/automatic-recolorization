@@ -4,3 +4,8 @@ Uses ML colorization methods to restore image color (RGB -> IR (Gray+extra data)
 ```shell
 python RGB2IRstyle.py
 ```
+# 原图
+
+# 效果
+
+![pic](https://github.com/lizeyujack/automatic-recolorization/blob/main/intermediate_representation/rgb_0001.gray.png)
